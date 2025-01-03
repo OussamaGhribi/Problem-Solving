@@ -11,7 +11,7 @@ public:
         }
         int maxScore = INT_MIN;
         for (int i = 0; i < n - 1; i++) {
-            maxScore = max(maxScore, values[i] + i + suffixMax[i + 1]);
+            maxScore = max(maxScore, values[i] + i + suffixMax[i + 1]); 
         }
 
         return maxScore;
